@@ -1,0 +1,40 @@
+body {
+    background-color: rgb(255, 255, 255)  ;
+    color: white;   
+    font-family: sans-serif
+}
+
+.container {
+    display:grid;
+    grid-template-columns: 1fr 2fr;
+}
+.top {
+    margin: 20px;
+}
+
+.number {
+    font-size: 60px;
+}
+
+.graph {
+    margin: 20px;
+}
+
+.text {
+    margin: 20px;
+}
+.interface {
+background-color: rgb(69, 141, 239);
+border-radius: 4px;
+}
+.blank {
+background-color: white;
+}
+
+.span {
+    margin-left: 80px;
+}
+
+.p {
+    display: inline-flex;
+}
