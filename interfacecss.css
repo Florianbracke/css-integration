@@ -1,12 +1,20 @@
 body {
     background-color: rgb(255, 255, 255)  ;
     color: white;   
-    font-family: sans-serif
+    font-family: sans-serif;
+    opacity: 0.9;
 }
 
+.hr {
+    border-style: solid;
+}
 .container {
     display:grid;
     grid-template-columns: 1fr 2fr;
+}
+
+.alignright {
+	float: right;
 }
 .top {
     margin: 20px;
@@ -35,6 +43,7 @@ background-color: white;
     margin-left: 80px;
 }
 
-.p {
-    display: inline-flex;
+.report {
+    padding:20px;
 }
+
