@@ -1,0 +1,105 @@
+body {
+    font-family: "source sans pro", sans-serif, monospace;
+    
+}
+
+.interface3 {
+    width: calc(496px - 8px);
+    height: calc(269px - 11px);
+    background-color: rgb(255, 255, 255);
+    margin: 3px;  
+    margin-top: 3px;
+    position:absolute;
+  
+    color: rgb(3, 3, 3);
+    display: flex;
+    flex-wrap: nowrap;
+    border-style: solid;    
+  border-width: 1px;
+  border-color: rgb(175, 175, 175);
+  border-radius: 2px;
+    
+}
+.mainimg {
+    width: 200px;
+    height: 258px;
+}
+
+ .profile{
+    width: auto;
+    height: auto;
+    display: inline-block;
+    font-size: smaller;
+    padding-top: 58px;
+    letter-spacing: 1px;
+    padding-left: 0px;
+ }
+ 
+.text {
+    
+    padding-top: 3px;
+        padding-left: 4px;
+    line-height:1.22;
+    
+}
+
+ h3 {
+     margin-bottom: 8px;
+ }
+
+ .color {
+     color: rgb(143, 142, 142);
+}
+     
+ 
+
+ p{
+    font-size: 15px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    color: rgb(143, 142, 142);
+    margin-right: 5px;
+    
+ }
+
+ .grayzone {
+     float:left;
+    padding-left: 5px; 
+    font-size: 12px;
+    letter-spacing: 0.55px;
+    line-height: 15px;
+    color:black;
+ }
+    
+ 
+.nametag{
+    width: 272px;
+    height: 242px;
+    padding: 15px;
+    padding-bottom: 14px;
+    padding-top: 0px;
+    padding-right: 10px;
+    
+    
+}
+
+.bookmark{
+ width: 34px;
+ height: 16px;
+ float:right;
+ padding-top: 14px;
+ padding-bottom: 14px;
+ padding-left: 42px;
+}
+
+
+.josiah {
+    width: 50px;
+    height: 50px;
+    float:left;
+}
+
+.mockup {
+    position:absolute;
+    opacity: 1;
+}
