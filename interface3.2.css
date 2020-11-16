@@ -1,18 +1,15 @@
-body {
-    background-image: url("moc2Skup3.png");
-    opacity: 1;
-    background-repeat: no-repeat;
+body {  
     font-family: 'Merriweather Sans', sans-serif;
 }
-    
-
 .container{
     display: flex;
     flex-direction: row;
-    flex-wrap: nowrap;
-    margin-left: 3px;
-    width: 496px;
+    flex-wrap: wrap;
+    margin: 0px;
+    width: 490px;
     height: 265px;
+    border: 1px solid #eeeeee;
+    border-radius: 0.5%;
     
 }
 .sidepicture{
@@ -34,7 +31,10 @@ body {
 
 h1 {
     font-size: 18px;
-    font-weight: 500;
+    
+    margin-top: 10px;
+    margin-bottom: 0px;
+    font-weight: bold;
 }
 
 h2 {
@@ -43,12 +43,12 @@ h2 {
     word-spacing: 2px;
     color: grey;
 }
-}
+
 .bottompart{
     margin-top: 43px;
-    font-size: small;
-    height: auto;  
-    width: 258px;
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
     
 }
 .grayzone{
@@ -89,6 +89,8 @@ background-color: palegoldenrod;
 
 
     .mockup {
-        position:absolute;
+        
         opacity: 0.4;
+        margin: 0px;
+        padding: 0px;
     }
