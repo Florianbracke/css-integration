@@ -38,8 +38,8 @@ h2 {
 
 .bottompart{
     margin-top: 40px;
-    text-align: right;
-    
+    text-align: center;
+    vertical-align: middle;
     
 }
 .grayzone{
@@ -47,8 +47,7 @@ h2 {
     margin:0px;
     display: inline-block;
     color:black;
-    padding-top: 11px;
-    margin-bottom: 11px;
+    
     font-size: 12px;
 }
 .color{
@@ -68,8 +67,8 @@ background-color: palegoldenrod;
 
 .josiah {
     justify-items: flex-start;
-    width: 40px;
-    height: 40px;
+    width: 50px;
+    height: 60px;
     object-fit: fill;
     
 }
