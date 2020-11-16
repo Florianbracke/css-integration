@@ -1,8 +1,8 @@
 body {
     background-image: url("moc2Skup3.png");
-    opacity: 0.5;
+    opacity: 1;
     background-repeat: no-repeat;
-    margin: 3px;
+    font-family: 'Merriweather Sans', sans-serif;
 }
     
 
@@ -10,29 +10,59 @@ body {
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
+    margin-left: 3px;
+    width: 496px;
+    height: 265px;
+    
 }
 .sidepicture{
     width: 200px;
-    height: 258px;
+    height: 265px;
     background-image: url("hand.png");
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size:contain;
+    
 }
 .namecard{
     width: 250px;
     height: 258px;
     margin-left: 20px;
+    display:flex;
+    flex-direction: column;
 }
 
-h1{
-    font-size: large;
-}
-p{
 
+h1 {
+    font-size: 18px;
+    font-weight: 500;
+}
+
+h2 {
+    font-size: 14px;
+    font-weight: 300;
+    word-spacing: 2px;
+    color: grey;
+}
+}
+.bottompart{
+    margin-top: 43px;
+    font-size: small;
+    height: auto;  
+    width: 258px;
+    
+}
+.grayzone{
+    width:125px;
+    margin:0px;
+    display: inline-block;
 }
 button{
   background-color: white  ;
   border: none;  
+  align-self: flex-end;
+  width: auto;
+  height: auto;
+  padding: 0px;
 }
 button :hover{
 background-color: palegoldenrod;
@@ -41,3 +71,24 @@ background-color: palegoldenrod;
 .josiah {
     width: 50px;
     height: 50px;
+    margin-top: 12px;
+    margin-right: 3px;   
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    .mockup {
+        position:absolute;
+        opacity: 0.4;
+    }

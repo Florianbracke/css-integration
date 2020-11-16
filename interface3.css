@@ -18,7 +18,7 @@ body {
   border-width: 1px;
   border-color: rgb(175, 175, 175);
   border-radius: 2px;
-    
+  opacity: 0.5;
 }
 .mainimg {
         width: 200px;
@@ -99,7 +99,7 @@ body {
     float:left;
 }
 
-.mockup {
-    position:absolute;
-    opacity: 1;
-}
+    .mockup {
+        position:absolute;
+        opacity: 0.5;
+    }
